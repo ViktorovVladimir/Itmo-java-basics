@@ -9,9 +9,9 @@ public class Main {
         System.out.println("Enter an integer:");
         int b = scanner.nextInt();
 
-        if (b % 2 > 0)
+        if (b % 2 > 0) {
             System.out.println("Odd value");
-        else {
+        } else {
             if (b > 100) {
                 System.out.println("Even value, out of range");
             } else {
