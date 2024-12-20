@@ -12,10 +12,11 @@ public class Main {
         if (b % 2 > 0)
             System.out.println("Odd value");
         else {
-            if (b > 100)
+            if (b > 100) {
                 System.out.println("Even value, out of range");
-            else
+            } else {
                 System.out.println("Even value");
+            }
         }
 
         scanner.close();
