@@ -8,6 +8,6 @@ public class Main {
                 rValue3 = 5.9;
 
         double result = rValue1 * rValue2 * rValue3;
-        System.out.println("The result variable is equal to: " + result );
+        System.out.println("The result variable is equal to: " + result);
     }
 }
