@@ -1,4 +1,4 @@
-package Task01;
+package LabWork01.Task01;
 
 public class Main {
 
