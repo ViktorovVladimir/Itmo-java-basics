@@ -12,8 +12,10 @@ public class Main {
         System.out.println("Summa double values:: " + calculator.sum(6.5, 4.5));
 
         System.out.println("\nTest -=Div=- ");
-        System.out.println("Division int values: " + calculator.div(12, 3));
-        System.out.println("Division long values: " + calculator.div(70000000000L, 7));
+        DivisionResult divRes = calculator.div(13, 3);
+        System.out.println("Division int values: " + divRes.iQuotient + " remainder: " + divRes.iRemainder);
+        divRes = calculator.div(90000000000L, 70507);
+        System.out.println("Division long values: " + divRes.lQuotient + " remainder: " + divRes.lRemainder);
         System.out.println("Division double values: " + calculator.div(15.0, 2.0));
 
         System.out.println("\nTest -=Multiplication=- ");
