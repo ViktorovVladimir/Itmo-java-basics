@@ -4,16 +4,14 @@ import java.util.Arrays;
 
 public class Main {
 
-    public static boolean funcCompare(int[] mas) {
+    public static void funcCompare(int[] mas) {
         if (mas.length < 2) {
-            return false;
+            return;
         }
 
         int temp = mas[0];
         mas[0] = mas[mas.length - 1];
         mas[mas.length - 1] = temp;
-
-        return true;
     }
 
     public static void main(String[] args) {
