@@ -4,8 +4,10 @@ public class Main {
 
     private static boolean palindromChecker(String word) {
 
-        for (int i = 0; i < (word.length() + 1) >> 1; i++) {
-            if (word.charAt(i) != word.charAt(word.length() - 1 - i)) {
+        String sLWord = word.toLowerCase();
+
+        for (int i = 0; i < (sLWord.length() + 1) >> 1; i++) {
+            if (sLWord.charAt(i) != sLWord.charAt(sLWord.length() - 1 - i)) {
                 return false;
             }
         }
