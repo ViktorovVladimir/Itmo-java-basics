@@ -4,9 +4,11 @@ import java.util.Scanner;
 
 public class Child extends Parent {
 
+    String sName;
+
     public void inputAge() {
-        System.out.print("Child: Enter an age value: ");
-        super.iAge = super.scanner.nextInt();
-        System.out.println("iAge: " + iAge);
+        System.out.print("Child: Enter your name: ");
+        sName = scanner.nextLine();
+        System.out.println("Name is : " + sName);
     }
 }
